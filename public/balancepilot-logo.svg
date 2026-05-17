@@ -1,0 +1,12 @@
+<svg width="640" height="140" viewBox="0 0 640 140" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">BalancePilot</title>
+  <defs>
+    <linearGradient id="pilot" x1="388" y1="22" x2="600" y2="108" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#71E58A"/>
+      <stop offset="1" stop-color="#1F9F58"/>
+    </linearGradient>
+  </defs>
+  <text x="18" y="96" font-family="Aptos, 'Segoe UI Variable Display', 'Segoe UI', sans-serif" font-size="76" font-weight="650" letter-spacing="-3">
+    <tspan fill="#10235A">Balance</tspan><tspan fill="url(#pilot)" dx="-5">Pilot</tspan>
+  </text>
+</svg>

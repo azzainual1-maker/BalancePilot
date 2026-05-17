@@ -25,7 +25,7 @@ import { createId } from "@/utils/id";
 
 type FormErrors = Record<string, string>;
 
-const APP_VERSION = "V.0.0.1";
+const APP_VERSION = "V.0.0.4";
 
 const pageTitles: Record<AppView, string> = {
   dashboard: "Home",

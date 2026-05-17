@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --background: #101211;
+  --foreground: #17201b;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family:
+    Aptos,
+    "Segoe UI Variable Display",
+    "Segoe UI Variable Text",
+    "Segoe UI",
+    Inter,
+    system-ui,
+    sans-serif;
+  font-feature-settings:
+    "liga" 1,
+    "kern" 1;
+  font-synthesis-weight: none;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: geometricPrecision;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+.font-black {
+  font-weight: 680;
+}
+
+.font-bold {
+  font-weight: 620;
+}
+
+.font-semibold {
+  font-weight: 560;
+}
+
+::selection {
+  background: #191f1c;
+  color: #d7ffd9;
+}
+
+.app-stage {
+  background:
+    linear-gradient(135deg, rgba(218, 255, 214, 0.08), transparent 28%),
+    linear-gradient(315deg, rgba(190, 197, 255, 0.12), transparent 24%),
+    #101211;
+}
+
+.app-phone {
+  background: #d9f8d6;
+}
